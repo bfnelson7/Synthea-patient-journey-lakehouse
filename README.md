@@ -19,7 +19,7 @@ encounters, conditions, medications, procedures, observations, and claims.
 ## Showcase Analytics
 - 30-day readmission analysis
 - Comorbidity pair mining
-- Medication adherence gaps
+- Medication persistence
 - Care cascade (hypertension funnel)
 - CKD cohort vs. control cost comparison
 
