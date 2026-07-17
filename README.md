@@ -7,7 +7,7 @@ some key findings include an alarming rate of follow up appointmets (33.7%) by n
 
 ---
 
-## Entity Relationship Diagram of Tables
+## Entity Relationship Diagram 
 <img width="2214" height="2283" alt="data_model" src="https://github.com/user-attachments/assets/277cb520-f7aa-4f3d-b7ca-7423e7eb0983" />
 
 ---
