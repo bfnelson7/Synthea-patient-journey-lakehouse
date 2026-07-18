@@ -3,7 +3,7 @@
 
 ## Overview
 This project takes raw synthetic electronic health records and builds a production-style analytics lakehouse, then answers five clinically meaningful questions using advanced SQL. The data spans 11,447 patients with roughly 670,000 encounters and 8.8 million clinical observations. Seventeen source tables are ingested, cleaned and modelled into a proper start schema then used to answer five clinically meaningful questions using SQL.
-some key findings include an alarming rate of follow up appointmets (33.7%) by newly diagnosed hypertensive patients within the first 90 days and prevalance of certain comorbid conditions occuring together such as kidney disease and diabetes, through the care cycle of most patients living with a chronic condition.
+some key findings include an alarming rate of follow up appointments (33.7%) by newly diagnosed hypertensive patients within the first 90 days and prevalence of certain comorbid conditions occuring together such as kidney disease and diabetes, through the care cycle of most patients living with a chronic condition.
 
 ---
 
@@ -18,7 +18,7 @@ Five analytical notebooks, each answering a business question through SQL.
 ### 1. Hospital readmissions
 Of patients discharged from a hospital stay, how many end up back in the hospital within a month -and does that risk vary across the patient population?
 
-**Approach :** the startting point was to reconstruct,for all patients with more than one stay, the gap between one discharge and the next admission. After the overall rate was esthablised, the same patients were split out into age groups to see the spread of the risk.
+**Approach :** the starting point was to reconstruct,for all patients with more than one stay, the gap between one discharge and the next admission. After the overall rate was established, the same patients were split out into age groups to see the spread of the risk.
 
 **Finding :** the overall 30-day readmission rate was 18.2%, which sits comfortably within the range of real hospital systems. Breaking the rate down by age revealed a clear pattern: readmission climbs steadily through mid-life, peaks among patients aged 50 to 79 and then noticeably drops among the oldest patients: this can be interpreted as the frailest patients in the oldest group are more likely to move into hospice care or pass away than to be formally readmitted.
 
